@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".fragments.WeatherInfoFragment"
+              android:orientation="vertical">
+
+    <ImageView
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/weather_info_picture_height"
+            android:layout_gravity="center"
+            android:id="@+id/ivWeatherPicture"
+            android:contentDescription="@string/picture_of_the_weather"
+            android:layout_margin="@dimen/layout_margin_standard"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <TextView
+                tools:text="23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTemp"
+                android:layout_margin="@dimen/layout_margin_standard"
+                android:textSize="@dimen/city_info_textSize"
+                android:textColor="#000000"/>
+
+        <TextView
+                android:text="@string/temp_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvUnit"
+                android:layout_marginTop="@dimen/layout_margin_standard"
+                android:textSize="@dimen/city_info_textSize"
+                android:textColor="#000000"/>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment"
+            android:id="@+id/tvWeatherInfo"
+            android:layout_margin="@dimen/layout_margin_standard"
+            android:textSize="@dimen/city_info_textSize"
+            android:textColor="#000000"
+            tools:text="Some text" android:textAlignment="center"/>
+
+</LinearLayout>

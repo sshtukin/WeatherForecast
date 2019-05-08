@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photo_of_the_city">Photo of the city</string>
+    <string name="picture_of_the_weather">Picture of the weather</string>
+    <string name="temp_unit">C</string>
+    <string name="remove_text">Do you want to remove from favourites?</string>
+    <string name="add_text">Do you want to add to favourites?</string>
+    <string name="yes">Yes</string>
+    <string name="activity_cannot_be_null">Activity cannot be null</string>
+    <string name="favourites">Favourites</string>
+    <string name="all">All</string>
+    <string name="sort_by_name_ascending">Sort by name(ascending)</string>
+    <string name="sort_by_name_reverse_descending">Sort by name(descending)</string>
+    <string name="sort_by_temp_ascending">Sort by temp(ascending)</string>
+    <string name="sort_by_temp_reverse_descending">Sort by temp(descending)</string>
+</resources>
